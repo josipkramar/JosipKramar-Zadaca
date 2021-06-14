@@ -1,5 +1,5 @@
 def rekurzija(n):
     if len(n)==1:
-         return x
+         return n
     else:
-         return rekurzija(x[1::]) + x[0]
+         return rekurzija(n[1::]) + n[0]
